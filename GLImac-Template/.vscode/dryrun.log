@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/maxime/Documents/Synthèse2/GLImac-Template'
+make: Leaving directory '/home/maxime/Documents/Synthèse2/GLImac-Template'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+ 

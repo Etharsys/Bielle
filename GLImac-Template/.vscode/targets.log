@@ -1,0 +1,383 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Dec 20 12:09:27 2021
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = cinnamon
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+libG3X = -lm -L$(lGL_PATH) -lGL -lGLU -lglut -L$(G3X_PATH) -lg3x.$(VERSION).$(PROCBIT)
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /home/maxime/.Xauthority
+# environment
+GDMSESSION = cinnamon
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+CURDIR := /home/maxime/Documents/Synthèse2/GLImac-Template
+# makefile
+SHELL = /bin/sh
+# environment
+SNAP_DATA = /var/snap/code/85
+# environment
+GDM_LANG = fr_FR
+# environment
+VTE_VERSION = 6003
+# environment
+VSCODE_NLS_CONFIG = {"locale":"fr","availableLanguages":{},"_languagePackSupport":true}
+# environment
+incG2X = -I$(G2X_PATH)/include -I$(iGL_PATH)
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-cinnamon:/etc/xdg
+# environment
+G2X_PATH = /home/maxime/Documents/Animation/libGX2/libg2x.6c
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_ARCH = amd64
+# environment
+GTK_OVERLAY_SCROLLING = 1
+# makefile
+MAKEFILE_LIST := 
+# automatic
+@F = $(notdir $@)
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+MANDATORY_PATH = /usr/share/gconf/cinnamon.mandatory.path
+# environment
+XDG_DATA_DIRS = /usr/share/cinnamon:/usr/share/gnome:/home/maxime/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VERSION = 6c
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/maxime/Documents/Synthèse2/GLImac-Template
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/85/usr/share/glib-2.0/schemas
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/maxime/.sdkman/candidates/springboot/current/bin:/home/maxime/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-15-oracle/bin:/usr/lib/jvm/java-15-oracle/db/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/MaximeMint:@/tmp/.ICE-unix/1574,unix/MaximeMint:/tmp/.ICE-unix/1574
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/maxime/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+SNAP = /snap/code/85
+# environment
+SDKMAN_DIR = /home/maxime/.sdkman
+# environment
+SDKMAN_CANDIDATES_API = https://api.sdkman.io/2
+# environment
+SNAP_VERSION = 899d46d8
+# environment
+SDKMAN_PLATFORM = Linux64
+# environment
+VSCODE_LOG_STACK = false
+# environment
+DISABLE_WAYLAND = 1
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=a3b166fb-96aa-417d-880d-cf1652a20ba2&iid=a3b166fb-96aa-417d-880d-cf1652a20ba2&sid=a3b166fb-96aa-417d-880d-cf1652a20ba2","uploadToServer":true}
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/85/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/maxime
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# environment
+INSIDE_NEMO_PYTHON = 
+# environment
+XDG_SESSION_DESKTOP = cinnamon
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PROCBIT = 64b
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+PWD = /home/maxime/Documents/Synthèse2/GLImac-Template
+# environment
+QT_QPA_PLATFORMTHEME = qt5ct
+# default
+.LOADED := 
+# environment
+XDG_SEAT = seat0
+# environment
+SSH_AGENT_PID = 1643
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = X-Cinnamon
+# environment
+iGL_PATH = /usr/include
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/maxime
+# environment
+LD_LIBRARY_PATH = /home/maxime/Documents/Animation/libGX2/libg2x.6c:/home/maxime/Documents/Animation/libGX2/libg3x.6c:/home/maxime/Documents/Animation/libGX/libg2x:/home/maxime/Documents/Animation/libGX/libg3x:/home/maxime/Documents/Animation/libg2x:/home/maxime/Documents/Animation/libg3x:/home/maxime/Documents/OpenGL/M1.INFO.2021/M1.INFO.2021/libg2x.6c:/home/maxime/Documents/OpenGL/M1.INFO.2021/M1.INFO.2021/libg3x.6c:/home/maxime/Documents/OpenGL/M1.INFO.2021/M1.INFO.2021/libg2x.6c:/home/maxime/Documents/OpenGL/M1.INFO.2021/M1.INFO.2021/libg3x.6c:/home/maxime/Documents/OpenGL/M1.INFO.2021/M1.INFO.2021/libg2x.6c:/home/maxime/Documents/OpenGL/M1.INFO.2021/M1.INFO.2021/libg3x.6c:/home/maxime/Documents/OpenGL/M1.INFO.2021/libg2x.6c:/home/maxime/Documents/OpenGL/M1.INFO.2021/libg3x.6c:/home/maxime/Documents/OpenGL/M1.INFO.2021/libg2x.6c:/home/maxime/Documents/OpenGL/M1.INFO.2021/libg3x.6c:/home/maxime/Documents/OpenGL/M1.INFO.2021/libg2x.6c:/home/maxime/Documents/OpenGL/M1.INFO.2021/libg3x.6c:
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+J2REDIR = /usr/lib/jvm/java-15-oracle
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/maxime/.config/Code/CachedData/899d46d82c4c95423fb7e10e68eba52050e30ba3
+# environment
+LOGNAME = maxime
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = EMNAwWjakgoIk72h0n4WM0u5lKvzqLpGQmd_cS6RWASUISP4yLmW
+# environment
+J2SDKDIR = /usr/lib/jvm/java-15-oracle
+# environment
+libG2X = -lm -L$(lGL_PATH) -lGL -lGLU -lglut -L$(G2X_PATH) -lg2x.$(VERSION).$(PROCBIT)
+# environment
+SNAP_USER_COMMON = /home/maxime/snap/code/common
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XDG_VTNR = 7
+# environment
+MAKELEVEL := 0
+# environment
+SNAP_REAL_HOME = /home/maxime
+# environment
+SDKMAN_VERSION = 5.9.1+575
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SNAP_USER_DATA = /home/maxime/snap/code/85
+# environment
+SHLVL = 1
+# environment
+JAVA_HOME = /usr/lib/jvm/java-15-oracle
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-12478e08-a6d6-4c85-9abb-09fdd65a479f.sock
+# environment
+XDG_SESSION_ID = c2
+# environment
+USER = maxime
+# environment
+SNAP_REVISION = 85
+# makefile
+.DEFAULT_GOAL := 
+# environment
+XDG_CURRENT_DESKTOP = X-Cinnamon
+# environment
+incG3X = -I$(G3X_PATH)/include -I$(iGL_PATH)
+# environment
+G3X_PATH = /home/maxime/Documents/Animation/libGX2/libg3x.6c
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = fr_FR
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-187d02f9-1.63.2-main.sock
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+BREAKPAD_DUMP_LOCATION = /home/maxime/.config/Code/exthost Crash Reports
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# environment
+NO_AT_BRIDGE = 1
+# environment
+CINNAMON_VERSION = 4.6.7
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+DEFAULTS_PATH = /usr/share/gconf/cinnamon.default.path
+# default
+MAKEFILES := 
+# environment
+SNAP_COOKIE = EMNAwWjakgoIk72h0n4WM0u5lKvzqLpGQmd_cS6RWASUISP4yLmW
+# automatic
+<F = $(notdir $<)
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+lGL_PATH = /usr/lib
+ 
+make: *** No rule to make target 'all'.  Stop.
+ 
+# environment
+SNAP_NAME = code
+# environment
+SDKMAN_CANDIDATES_DIR = /home/maxime/.sdkman/candidates
+# environment
+LC_ALL = C
+# environment
+SPRINGBOOT_HOME = /home/maxime/.sdkman/candidates/springboot/current
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/9fdfb939_a06c_4e3b_82c9_de23329ff6ab
+# automatic
+^F = $(notdir $^)
+# environment
+GNOME_TERMINAL_SERVICE = :1.39009
+# default
+SUFFIXES := 
+# environment
+SNAP_REEXEC = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+DERBY_HOME = /usr/lib/jvm/java-15-oracle/db
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 212399
+# variable set hash-table stats:
+# Load=149/1024=15%, Rehash=0, Collisions=16/171=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66306, inode 6169177): 17 files, no impossibilities.
+
+# 17 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 25 / storage = 215 B / avg = 8 B
+# current buf: size = 8162 B / used = 215 B / count = 25 / avg = 8 B
+
+# strcache performance: lookups = 28 / hit rate = 10%
+# hash-table stats:
+# Load=25/8192=0%, Rehash=0, Collisions=1/28=4%
+# Finished Make data base on Mon Dec 20 12:09:27 2021
+
+ 

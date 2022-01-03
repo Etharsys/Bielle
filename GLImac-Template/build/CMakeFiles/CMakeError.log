@@ -1,0 +1,116 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/maxime/Documents/Synthèse 2/GLImac-Template/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5e6cb/fast && /usr/bin/make -f CMakeFiles/cmTC_5e6cb.dir/build.make CMakeFiles/cmTC_5e6cb.dir/build
+make[1] : on entre dans le répertoire « /home/maxime/Documents/Synthèse 2/GLImac-Template/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_5e6cb.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_5e6cb.dir/src.c.o   -c "/home/maxime/Documents/Synthèse 2/GLImac-Template/build/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_5e6cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e6cb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_5e6cb.dir/src.c.o  -o cmTC_5e6cb 
+/usr/bin/ld : CMakeFiles/cmTC_5e6cb.dir/src.c.o : dans la fonction « main » :
+src.c:(.text+0x46) : référence indéfinie vers « pthread_create »
+/usr/bin/ld : src.c:(.text+0x52) : référence indéfinie vers « pthread_detach »
+/usr/bin/ld : src.c:(.text+0x63) : référence indéfinie vers « pthread_join »
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_5e6cb.dir/build.make:87 : cmTC_5e6cb] Erreur 1
+make[1] : on quitte le répertoire « /home/maxime/Documents/Synthèse 2/GLImac-Template/build/CMakeFiles/CMakeTmp »
+make: *** [Makefile:121 : cmTC_5e6cb/fast] Erreur 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/maxime/Documents/Synthèse 2/GLImac-Template/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c1539/fast && /usr/bin/make -f CMakeFiles/cmTC_c1539.dir/build.make CMakeFiles/cmTC_c1539.dir/build
+make[1] : on entre dans le répertoire « /home/maxime/Documents/Synthèse 2/GLImac-Template/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_c1539.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c1539.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c1539
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1539.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_c1539.dir/CheckFunctionExists.c.o  -o cmTC_c1539  -lpthreads 
+/usr/bin/ld : ne peut trouver -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_c1539.dir/build.make:87 : cmTC_c1539] Erreur 1
+make[1] : on quitte le répertoire « /home/maxime/Documents/Synthèse 2/GLImac-Template/build/CMakeFiles/CMakeTmp »
+make: *** [Makefile:121 : cmTC_c1539/fast] Erreur 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/maxime/Documents/Synthèse2/GLImac-Template/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a19d8/fast && /usr/bin/make -f CMakeFiles/cmTC_a19d8.dir/build.make CMakeFiles/cmTC_a19d8.dir/build
+make[1] : on entre dans le répertoire « /home/maxime/Documents/Synthèse2/GLImac-Template/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_a19d8.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_a19d8.dir/src.c.o   -c /home/maxime/Documents/Synthèse2/GLImac-Template/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a19d8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a19d8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_a19d8.dir/src.c.o  -o cmTC_a19d8 
+/usr/bin/ld : CMakeFiles/cmTC_a19d8.dir/src.c.o : dans la fonction « main » :
+src.c:(.text+0x46) : référence indéfinie vers « pthread_create »
+/usr/bin/ld : src.c:(.text+0x52) : référence indéfinie vers « pthread_detach »
+/usr/bin/ld : src.c:(.text+0x63) : référence indéfinie vers « pthread_join »
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_a19d8.dir/build.make:87 : cmTC_a19d8] Erreur 1
+make[1] : on quitte le répertoire « /home/maxime/Documents/Synthèse2/GLImac-Template/build/CMakeFiles/CMakeTmp »
+make: *** [Makefile:121 : cmTC_a19d8/fast] Erreur 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/maxime/Documents/Synthèse2/GLImac-Template/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5f303/fast && /usr/bin/make -f CMakeFiles/cmTC_5f303.dir/build.make CMakeFiles/cmTC_5f303.dir/build
+make[1] : on entre dans le répertoire « /home/maxime/Documents/Synthèse2/GLImac-Template/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_5f303.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5f303.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5f303
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f303.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_5f303.dir/CheckFunctionExists.c.o  -o cmTC_5f303  -lpthreads 
+/usr/bin/ld : ne peut trouver -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_5f303.dir/build.make:87 : cmTC_5f303] Erreur 1
+make[1] : on quitte le répertoire « /home/maxime/Documents/Synthèse2/GLImac-Template/build/CMakeFiles/CMakeTmp »
+make: *** [Makefile:121 : cmTC_5f303/fast] Erreur 2
+
+
+

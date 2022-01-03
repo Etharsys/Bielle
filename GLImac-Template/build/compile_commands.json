@@ -1,0 +1,172 @@
+[
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/glimac",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/glimac.dir/src/Cone.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/glimac/src/Cone.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/src/Cone.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/glimac",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/glimac.dir/src/Cube.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/glimac/src/Cube.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/src/Cube.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/glimac",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/glimac.dir/src/Geometry.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/glimac/src/Geometry.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/src/Geometry.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/glimac",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/glimac.dir/src/Image.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/glimac/src/Image.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/src/Image.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/glimac",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/glimac.dir/src/Program.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/glimac/src/Program.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/src/Program.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/glimac",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/glimac/src/SDLWindowManager.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/src/SDLWindowManager.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/glimac",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/glimac.dir/src/Shader.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/glimac/src/Shader.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/src/Shader.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/glimac",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/glimac.dir/src/Sphere.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/glimac/src/Sphere.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/src/Sphere.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/glimac",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/glimac/src/tiny_obj_loader.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/src/tiny_obj_loader.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/TP1",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP1_exo5_circle_fan.dir/exo5_circle_fan.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/TP1/exo5_circle_fan.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/TP1/exo5_circle_fan.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/TP1",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP1_exo5_circle.dir/exo5_circle.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/TP1/exo5_circle.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/TP1/exo5_circle.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/TP1",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP1_exo6_circle_index.dir/exo6_circle_index.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/TP1/exo6_circle_index.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/TP1/exo6_circle_index.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/TP1",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP1_exo4_quad.dir/exo4_quad.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/TP1/exo4_quad.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/TP1/exo4_quad.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/TP1",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP1_exo3_structure_vertex.dir/exo3_structure_vertex.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/TP1/exo3_structure_vertex.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/TP1/exo3_structure_vertex.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/TP1",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP1_exo2_triangle_couleur.dir/exo2_triangle_couleur.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/TP1/exo2_triangle_couleur.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/TP1/exo2_triangle_couleur.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/TP1",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP1_exo1_triangle_blanc.dir/exo1_triangle_blanc.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/TP1/exo1_triangle_blanc.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/TP1/exo1_triangle_blanc.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/TP2",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP2_test.dir/test.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/TP2/test.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/TP2/test.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/TP2",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP2_exo7_textures.dir/exo7_textures.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/TP2/exo7_textures.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/TP2/exo7_textures.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/TP2",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP2_exo6_sommets.dir/exo6_sommets.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/TP2/exo6_sommets.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/TP2/exo6_sommets.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/TP2",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP2_exo4_textures.dir/exo4_textures.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/TP2/exo4_textures.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/TP2/exo4_textures.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/TP2",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP2_exo3_triangle_modify.dir/exo3_triangle_modify.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/TP2/exo3_triangle_modify.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/TP2/exo3_triangle_modify.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/TP2",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP2_exo2_triangle_suite.dir/exo2_triangle_suite.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/TP2/exo2_triangle_suite.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/TP2/exo2_triangle_suite.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/TP2",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP2_exo5_mandelbrot.dir/exo5_mandelbrot.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/TP2/exo5_mandelbrot.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/TP2/exo5_mandelbrot.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/TP2",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP2_exo1_triangle_couleur.dir/exo1_triangle_couleur.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/TP2/exo1_triangle_couleur.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/TP2/exo1_triangle_couleur.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/TP2",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP2_SDLtemplate.dir/SDLtemplate.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/TP2/SDLtemplate.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/TP2/SDLtemplate.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/TP3",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP3_exo3_sphere_multishad.dir/exo3_sphere_multishad.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/TP3/exo3_sphere_multishad.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/TP3/exo3_sphere_multishad.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/TP3",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP3_exo2_sphere.dir/exo2_sphere.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/TP3/exo2_sphere.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/TP3/exo2_sphere.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/TP3",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP3_exo1_sphere.dir/exo1_sphere.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/TP3/exo1_sphere.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/TP3/exo1_sphere.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/TP4",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP4_exo2_freefly.dir/exo2_freefly.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/TP4/exo2_freefly.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/TP4/exo2_freefly.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/TP4",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP4_exo1_trackball.dir/exo1_trackball.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/TP4/exo1_trackball.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/TP4/exo1_trackball.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/TP5",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP5_exo2_ponctual.dir/exo2_ponctual.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/TP5/exo2_ponctual.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/TP5/exo2_ponctual.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/TP5",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP5_exo1_directionnal.dir/exo1_directionnal.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/TP5/exo1_directionnal.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/TP5/exo1_directionnal.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/TP_Projet",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP_Projet_bielle.dir/bielle.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/TP_Projet/bielle.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/TP_Projet/bielle.cpp"
+},
+{
+  "directory": "/home/maxime/Documents/Synthèse2/GLImac-Template/build/TP_template",
+  "command": "/usr/bin/c++   -I/usr/include/SDL -I/home/maxime/Documents/Synthèse2/GLImac-Template/glimac/include -I/home/maxime/Documents/Synthèse2/GLImac-Template/third-party/include  -g   -std=c++11 -o CMakeFiles/TP_template_SDLtemplate.dir/SDLtemplate.cpp.o -c /home/maxime/Documents/Synthèse2/GLImac-Template/TP_template/SDLtemplate.cpp",
+  "file": "/home/maxime/Documents/Synthèse2/GLImac-Template/TP_template/SDLtemplate.cpp"
+}
+]

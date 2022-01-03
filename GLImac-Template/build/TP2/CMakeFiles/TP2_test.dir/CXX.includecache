@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/maxime/Documents/Synthèse2/GLImac-Template/TP2/test.cpp
+vector
+-
+algorithm
+-
+iostream
+-
+string
+-
+numeric
+-
+math.h
+-
+set
+-
+
